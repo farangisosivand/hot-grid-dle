@@ -10,9 +10,34 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
+  font: normal 100%/1.3 "Roboto Slab", serif;
   box-sizing: border-box;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+.img-flex {
+  position: absolute;
+  width: 100%;
+  display: block;
+}
+
+.grid {
+  position: relative;
+}
+
+body {
+  margin: 0;
+}
+
+figcaption {
+  max-width: 15em;
+  position: absolute;
+  color: #fff;
+}
+
+figure {
+  margin: 0;
 }

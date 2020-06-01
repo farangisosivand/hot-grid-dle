@@ -18,26 +18,15 @@ html {
   box-sizing: inherit;
 }
 
-.img-flex {
-  position: absolute;
-  width: 100%;
-  display: block;
-}
-
-.grid {
-  position: relative;
-}
-
 body {
   margin: 0;
 }
 
-figcaption {
-  max-width: 15em;
-  position: absolute;
-  color: #fff;
+.img-flex {
+  margin: 0;
+  width: 100%;
 }
 
-figure {
+div {
   margin: 0;
 }

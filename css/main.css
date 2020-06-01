@@ -20,13 +20,16 @@ html {
 
 body {
   margin: 0;
+  padding: 0;
 }
 
 .img-flex {
   margin: 0;
   width: 100%;
+  padding: 0;
+  display: block;
 }
 
-div {
+figure {
   margin: 0;
 }
